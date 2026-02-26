@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <AutoCompleteTextView
+        android:id="@+id/dropdown"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/select_fruit"
+        android:focusable="false"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:inputType="none"/>
+
+    <ImageView
+        android:id="@+id/fruitImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
